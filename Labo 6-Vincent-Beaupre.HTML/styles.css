@@ -62,3 +62,7 @@ iframe {
   width: 400px;
   height: 225px;
 }
+
+audio {
+  display: block;
+}
