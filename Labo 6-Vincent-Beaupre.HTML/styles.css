@@ -1,0 +1,64 @@
+hr {
+  border: whitesmoke inset 1px;
+}
+nav {
+  text-align: center;
+  color: white;
+}
+
+nav > ul > li {
+  display: inline-block;
+  background-color: rgb(82, 82, 82);
+  padding: 10px;
+}
+
+nav > ul > li > ul {
+  display: none;
+  background-color: rgb(156, 156, 156);
+  position: absolute;
+  
+}
+
+nav > ul > li:hover {
+  background-color: black;
+}
+
+li:hover > ul {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+nav > ul > li > ul > li {
+  padding: 15px;
+}
+
+nav > ul > li > ul > li:hover {
+  background-color: rgb(68, 68, 68);
+}
+
+a {
+  color: white;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(199, 199, 199);
+  width: 60%;
+}
+
+td + td + td {
+  background-color: rgb(241, 198, 104);
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+}
+
+iframe {
+  width: 400px;
+  height: 225px;
+}
